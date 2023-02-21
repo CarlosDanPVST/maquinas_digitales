@@ -26,5 +26,4 @@ Por el momento usamos un ejemplo hallado en _File > Examples > 01Basics > Blink_
 
 Para lograr el resultado de la led azul se realizó lo siguiente:
 - A GIOP33 se conectó un cable dupont MM, para lograr espacio, y en conexión con el ánodo de la led
-- El cátodo de la led está en conexión con una resistencia, misma que está conectada al GND del ESP32
-- Se cargó el **[programa](https://github.com/CarlosDanPVST/maquinas_digitales/blob/main/Blink/Blink.ino)** (click) que hace parpadear cada 500ms la led azul, de forma iterativa.
+- El cátodo de la led está en conexión con una resistencia, misma que está conectadagit
