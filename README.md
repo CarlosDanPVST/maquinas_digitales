@@ -11,9 +11,9 @@ El ambiente de trabajo usado para este curso es
 - Python 3.9
 
 ## Índice
-Aquí enlistaremos links al código y comentario de las prácticas. Hacer click para ser redirijido a los markdowns
+Aquí enlistaremos links al código y comentario de las prácticas. Hacer click para ser redirijido a los markdowns. También se puede acceder mediante la interfaz de Github, haciendo click en la carpeta correspondiente
 
-- **[S3 | Blink, Serial y ADC](https://google.com)**
+- **[S3 | Blink, Serial y ADC](https://github.com/CarlosDanPVST/maquinas_digitales/blob/main/S3_practica/entrega_s3.md)**
 
 
 
