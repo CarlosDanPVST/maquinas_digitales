@@ -56,3 +56,12 @@ el siguiente video
 <p align = "center">
     <img src="./images/SD_led.gif" width = "350" height = "450">
 </p>
+
+Los datos obtenidos pueden visualizarse **[aquí](https://docs.google.com/spreadsheets/d/1fjc-rRQkJ4_6d5SeXgI-R8LTbiPJ2A-gHWyVaT-hTrs/edit?usp=sharing)**
+, y se corresponden con las siguientes imágenes
+
+<p align = "center">
+    <img src="./images/graf_tmp.JPG" width = "250" height = "350">
+    <img src="./images/graf_press.JPG" width = "250" height = "350">
+    <img src="./images/graf_ldr.JPG" width = "250" height = "350">
+</p>
