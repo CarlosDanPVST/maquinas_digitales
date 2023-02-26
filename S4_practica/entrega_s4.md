@@ -15,7 +15,7 @@ sensor atmosférico y el protocolo SPI para comunicar al lector de tarjetas uSD?
 **SENSOR ATMOSFÉRICO**
 
 Obtuvimos la dirección en memoria de nuestro sensor BMP280 mediante el
-**[este código]()**. Se buscan las direcciones mediante fuerza 
+**[este código](https://github.com/CarlosDanPVST/maquinas_digitales/blob/main/S4_practica/WireScan/WireScan.ino)**. Se buscan las direcciones mediante fuerza 
 bruta, en el ciclo-for de la línea 22. La línea 27 inicia una transmisión a cada dirección 
 en memoria que recorre el for, esto con el objetivo de recibir un *acknowledgement*.
 Si se recibe respuesta no-errónea se imprime la dirección en memoria,
@@ -32,8 +32,8 @@ hacer lecturas con nuestro sensor BMP280. Los siguientes videos muestran
 las lecturas hechas por el sensor.
 
 <p align = "center">
-    <img src="./images/tmpvspress_ide.gif" width = "250" height = "350"> <br>
-    <img src="./images/tmpvspress_plotter.gif.gif" width = "250" height = "350"> <br>
+    <img src="./images/tmpvspress_ide.gif" width = "350" height = "450"> <br>
+    <img src="./images/tmpvspress_plotter.gif.gif" width = "350" height = "450"> <br>
 </p>
 
 **LECTOR DE TARJETAS**
@@ -47,12 +47,12 @@ Monitor nos mostró lo siguiente
 </p>
 
 Una vez establecido esto, podemos guardar en un archivo las lecturas de 
-sensores. **[Este código]()** muestra un programa para hacerlo: mediante
+sensores. **[Este código](https://github.com/CarlosDanPVST/maquinas_digitales/blob/main/S4_practica/SD/SD.ino)** muestra un programa para hacerlo: mediante
 él guardamos las temperaturas, presiones y luminosidades registradas. 
 Como señalización para saber que se están guardando registros, elegimos 
 encender y apagar un led, y mandar a consola un mensaje, como lo muestra 
 el siguiente video
 
 <p align = "center">
-    <img src="./images/SD_led.gif" width = "250" height = "350">
+    <img src="./images/SD_led.gif" width = "350" height = "450">
 </p>
