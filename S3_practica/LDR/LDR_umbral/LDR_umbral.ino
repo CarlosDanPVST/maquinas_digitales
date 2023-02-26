@@ -1,6 +1,6 @@
 #define PIN_LED 33
 #define PIN_LDR 35
-#define THRHLD 400
+#define THRHLD 2500
 
 void setup() {
   pinMode(PIN_LED, OUTPUT);
