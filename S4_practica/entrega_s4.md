@@ -54,7 +54,7 @@ Monitor nos mostró lo siguiente
 </p>
 
 Una vez establecido esto, podemos guardar en un archivo las lecturas de 
-sensores. **[Este código](https://github.com/CarlosDanPVST/maquinas_digitales/blob/main/S4_practica/SD/SD.ino)** muestra un programa para hacerlo: mediante
+sensores. El código **[data_logger_sd](https://github.com/CarlosDanPVST/maquinas_digitales/blob/main/S4_practica/SD/SD.ino)** muestra un programa para hacerlo: mediante
 él guardamos las temperaturas, presiones y luminosidades registradas. 
 Como señalización para saber que se están guardando registros, elegimos 
 encender y apagar un led, y mandar a consola un mensaje, como lo muestra 
@@ -64,9 +64,7 @@ el siguiente video
     <img src="./images/SD_led.gif" width = "350px" height = "450px">
 </p>
 
-Los datos del sensor atmosférico se guardaron en la SD a través del código **[data_logger_sd](https://github.com/CarlosDanPVST/maquinas_digitales/blob/main/S4_practica/SD/SD.ino)**
-; la sd se extrajo y se usó el csv para graficar en spreadsheets. 
-Los datos obtenidos pueden visualizarse **[aquí](https://docs.google.com/spreadsheets/d/1fjc-rRQkJ4_6d5SeXgI-R8LTbiPJ2A-gHWyVaT-hTrs/edit?usp=sharing)**
+Los datos obtenidos con *data_logger_sd* pueden visualizarse **[aquí](https://docs.google.com/spreadsheets/d/1fjc-rRQkJ4_6d5SeXgI-R8LTbiPJ2A-gHWyVaT-hTrs/edit?usp=sharing)**
 , y se corresponden con las siguientes imágenes
 
 <p align = "center">
