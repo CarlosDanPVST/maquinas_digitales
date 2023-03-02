@@ -9,12 +9,12 @@ void setup() {
 }
 
 void loop() {
-  char buffer[80];
+  char payload[80];
 
-  sprintf(buffer, "%.2f,%.2f",
+  sprintf(payload, "%.2f,%.2f",
     bmp.readTemperature(),
     bmp.readPressure() / 1000);
-  Serial.println(buffer);
+  Serial.println(payload);
 
   delay(200);
 

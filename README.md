@@ -14,6 +14,7 @@ El ambiente de trabajo usado para este curso es
 Aquí enlistaremos links al código y comentario de las prácticas. Hacer click para ser redirijido a los markdowns. También se puede acceder mediante la interfaz de Github, haciendo click en la carpeta correspondiente
 
 - **[S3 | Blink, Serial y ADC](https://github.com/CarlosDanPVST/maquinas_digitales/blob/main/S3_practica/entrega_s3.md)**
+- **[S4 | Sensor atmosférico y tarjeta uSD](https://github.com/CarlosDanPVST/maquinas_digitales/blob/main/S4_practica/entrega_s4.md)**
 
 
 
