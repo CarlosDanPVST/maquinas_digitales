@@ -12,7 +12,9 @@ y el lector de tarjetas SD
 *¿Por qué es adecuada la decisión de usar el protocolo I2C para comunicar al 
 sensor atmosférico y el protocolo SPI para comunicar al lector de tarjetas uSD?* 
 
-// añadir respuestas 
+El I2C es adecuado para el sensor, pues su comunicación half duplex es suficiente para leer las lecturas 
+que realiza; por su parte, el protocolo SPI es necesario en el lector de tarjetas SD por su comunicación 
+Full Duplex, pues requerimos poder leer y escribir el archivo csv donde se guardarán las mediciones.
 
 ### SENSOR ATMOSFÉRICO
 
@@ -62,6 +64,8 @@ el siguiente video
     <img src="./images/SD_led.gif" width = "350px" height = "450px">
 </p>
 
+Los datos del sensor atmosférico se guardaron en la SD a través del código **[data_logger_sd](https://github.com/CarlosDanPVST/maquinas_digitales/blob/main/S4_practica/SD/SD.ino)**
+; la sd se extrajo y se usó el csv para graficar en spreadsheets. 
 Los datos obtenidos pueden visualizarse **[aquí](https://docs.google.com/spreadsheets/d/1fjc-rRQkJ4_6d5SeXgI-R8LTbiPJ2A-gHWyVaT-hTrs/edit?usp=sharing)**
 , y se corresponden con las siguientes imágenes
 
@@ -70,3 +74,4 @@ Los datos obtenidos pueden visualizarse **[aquí](https://docs.google.com/spread
     <img src="./images/graf_press.JPG" width = "350px" height = "450px">
     <img src="./images/graf_ldr.JPG" width = "350px" height = "450px">
 </p>
+
