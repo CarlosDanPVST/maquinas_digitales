@@ -4,9 +4,9 @@ En las siguientes fotografías se pueden apreciar los circuitos para el BMP
 y el lector de tarjetas SD
 
 <p align = "center">
-    <img src="./images/circuito_izquierda.jpg" alt = "" width = "350px" height = "450px">
-    <img src="./images/circuito_frontal.jpg" alt = "" width = "350px" height = "450px">
-    <img src="./images/circuito_derecha.jpg" alt = "" width = "350px" height = "450px">
+    <img src="./images/circuito_izquierda.jpg" alt = "" width = "250px" height = "350px">
+    <img src="./images/circuito_frontal.jpg" alt = "" width = "250px" height = "350px">
+    <img src="./images/circuito_derecha.jpg" alt = "" width = "250px" height = "350px">
 </p>
 
 *¿Por qué es adecuada la decisión de usar el protocolo I2C para comunicar al 
@@ -26,7 +26,7 @@ se imprime un mensaje de error y la dirección en memoria, bloque if
 de la línea 39.<br>
 La imagen muestra el resultado obtenido
 <p align = "center">
-    <img src="./images/wire_scan.jpg" width = "350px" height = "450px">
+    <img src="./images/wire_scan.JPG" width = "350px" height = "450px">
 </p>
 
 Una vez con nuestra dirección de memoria, que resultó ser **0x76**, podemos 
@@ -48,7 +48,7 @@ mostrado en <code>File > Examples > SD(esp32) > SD_TEST</code>. Serial
 Monitor nos mostró lo siguiente
 
 <p align = "center">
-    <img src="./images/SD_test.jpg" width = "350px" height = "450px">
+    <img src="./images/SD_test.JPG" width = "350px" height = "450px">
 </p>
 
 Una vez establecido esto, podemos guardar en un archivo las lecturas de 
@@ -66,7 +66,7 @@ Los datos obtenidos pueden visualizarse **[aquí](https://docs.google.com/spread
 , y se corresponden con las siguientes imágenes
 
 <p align = "center">
-    <img src="./images/graf_tmp.jpg" width = "350px" height = "450px">
-    <img src="./images/graf_press.jpg" width = "350px" height = "450px">
-    <img src="./images/graf_ldr.jpg" width = "350px" height = "450px">
+    <img src="./images/graf_tmp.JPG" width = "350px" height = "450px">
+    <img src="./images/graf_press.JPG" width = "350px" height = "450px">
+    <img src="./images/graf_ldr.JPG" width = "350px" height = "450px">
 </p>
