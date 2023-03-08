@@ -64,8 +64,5 @@ debe ser hardcodeada. El uso de <code>Credentials.h</code> nos permite ejecutar
 nuestros programas con dicha información almacenada _solo a nivel local_, por lo que
 al hacer push de la evidencia permanecemos seguros.
 
-Por últimos, mostramos los programas  
-**[Bluetooth_logger]()**
-y
-**[Conexion_WiFi]()**
-que se usaron en esta semana
+Por últimos, mostramos los programas **[Bluetooth_logger]()**
+y **[Conexion_WiFi]()** que se usaron en esta semana
